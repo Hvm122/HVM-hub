@@ -7314,12 +7314,12 @@ spawn(function()
 end)
 end
 ----------------------------------------------------------------------------------------------------------------------------------------------
-InterfaceManager:SetFolder("FaiFaoScriptHub")
-SaveManager:SetFolder("FaiFaoScriptHub/specific-game")
+InterfaceManager:SetFolder("hvmScriptHub")
+SaveManager:SetFolder("hvmScriptHub/specific-game")
 Window:SelectTab(1)
 Fluent:Notify({
-    Title = "Fai Fao Hub",
-    Content = "The script has been loaded.",
+    Title = "HVM Hub",
+    Content = "Đang Tải Menu Script:).",
     Duration = 8
 })
 SaveManager:LoadAutoloadConfig()
